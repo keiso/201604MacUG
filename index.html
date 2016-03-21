@@ -4,10 +4,8 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="201604macug.GitHub.io : 勉強会用">
-
+    <meta name="description" content="広島マックユーザーグループ 2016年4月の勉強会用">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
     <title>広島マックユーザーグループ 2016年4月の勉強会用</title>
   </head>
 
@@ -24,34 +22,67 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        <h3>このページに関して</h3>
+
+<p>このページは2016年4月17日(日曜日)に開催する広島マックユーザーグループの勉強会用のページです。事前の準備や注意点などを掲載しておきます。</p>
+<p>なお、勉強会の詳細と参加登録は以下のATNDのページをご覧ください。</p>
+<p><a href="https://atnd.org/events/76047"><img src="https://atnd.org/event_images/0007/6279/201604_____original.png" alt="ESP-WROOM-02でArduino"></a></p>
+<p><a href="https://atnd.org/events/76047">広島マックユーザーグループ|4月17日(日曜日)の勉強会 ESP-WROOM-02でArduino : ATND</a></p>
+
+<h3>用意するもの</h3>
+
+<ul>
+  <li><a href="https://www.arduino.cc/en/Main/Software">Arduino Software(IDE)</a> Version.1.6.8をインストールしたMac</li>
+  <li>インターネット接続環境(モバイルルータなど)</li>
+  <li>ESP-WROOM-02 Arduino互換ボード、ジャンパワイヤ、ブレッドボード 、USBケーブル。以下に推奨パーツを紹介ます。</li>
+</ul>
+<h4>推奨パーツ</h4>
+
+<p>実際に自分で体験したい人は以下のパーツもご用意ください。全てスイッチサイエンスで購入できます。</p>
+
+<p>なお、以下の推奨パーツを使用して勉強会を進めますが、同等品であれば必ずしも同じ物でもなくても大丈夫です。ただし推奨品以外を使う場合は、配線などは各自その環境に置き換えて作業をお願いします。</p>
+
+<ul>
+  <li>ESP-WROOM-02 Arduino互換ボード – スイッチサイエンス<br>
+  <a href="https://www.switch-science.com/catalog/2620/">https://www.switch-science.com/catalog/2620/</a></li>
+  <li>普通のジャンパワイヤ(オス～オス) – スイッチサイエンス<br>
+  <a href="https://www.switch-science.com/catalog/620/">https://www.switch-science.com/catalog/620/</a></li>
+  <li>普通のブレッドボード – スイッチサイエンス<br>
+  <a href="https://www.switch-science.com/catalog/313/">https://www.switch-science.com/catalog/313/</a></li>
+  <li>USB2.0ケーブル(A-microBタイプ)50cm – スイッチサイエンス<br>
+  <a href="https://www.switch-science.com/catalog/1035/">https://www.switch-science.com/catalog/1035/</a></li>
+</ul>
+
+<p>スイッチサイエンスで販売している「ESP-WROOM-02 Arduino互換ボード」は、時々在庫切れになっていることがありますので、確実に入手したい場合は早めの購入をお勧めします。ただ、在庫切れになっていたとしても月に何度か入荷しているようなので、4月上旬くらいまでに注文すれば勉強会には間に合うと思います。</p>
+
+
+
+<h3>事前準備</h3>
+<p>勉強会の時間は正味2時間程度しかない為、勉強会前の準備にご協力をお願いします。</p>
+<h4>準備１：Arduino Softwareをインストール</h4>
+<ol>
+  <li>Arduinoの<a href="https://www.arduino.cc/en/Main/Software">ソフトウェア・ダウンロードのページ</a>を開いて「Mac OS X 10.7 Lion or newer」を選択し、ダウンロードするだけの場合は「JUST DOWNLOAD」をクリックしてArduino Software(IDE)をダウンロードします。開発費の寄付をしたい場合は、金額を選択して手続きを行ってください。</li>
+  <li>ダウンロードしたZipファイルを解凍</li>
+  <li>解凍して出来たアプリケーション・ファイル「Arduino」をアプリケーション・フォルダに移動してインストールが完了</li>
+</ol>
+<h4>準備２：Arduino SoftwareのボードマネージャーでESP8266 core for Arduinoをインストール</h4>
+<p>この部分は事前準備として必須というわけではないのですが、たまにサーバーの問題なのかESP8266 core for Arduinoがインストールできない状況になっていることがある様なので、出来ればインストールして参加されることをお勧めします。特に、当日使用できる自分のインターネット接続環境を用意できない場合は事前にお願いします。</p>
 
 
 
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">201604macug.GitHub.io maintained by <a href="https://github.com/keiso">keiso</a></p>
+        <p class="copyright">This page maintained by <a href="https://github.com/keiso">keiso</a></p>
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
+
 
 
   </body>
