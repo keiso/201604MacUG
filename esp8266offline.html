@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="広島マックユーザーグループ 2016年4月の勉強会用">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>広島マックユーザーグループ 2016年4月の勉強会用</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1 id="project_title">ESP-WROOM-02でArduino</h1>
+          <h2 id="project_tagline">広島マックユーザーグループ 2016年4月の勉強会用</h2>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>ArduinoにオフラインでESP8266をインストールする</h3>
+        <p>以下は、ネットに接続できない状態の時に、ボードマネージャーでESP8266をインストールする方法です。なお、ここで紹介する方法は、オンラインの状態では正しく動作しません。ネットに接続してない状態で実行してください。オンラインの状態でやるとパッケージ情報のファイルが途中で削除されます。</p><ol>
+        	<li>パッケージ情報のファイル(package_esp8266com_index.json)を /Users/[ユーザー名]/Library/Arduino15/ にコピーします。</li>
+        	<li>インストールに必要なファイル(esp8266-2.1.0.zip、esptool-0.4.8-osx.tar.gz、mkspiffs-0.1.2-osx.tar.gz、osx-xtensa-lx106-elf-gb404fb9-2.tar.gz) を/Users/[ユーザー名]/Library/Arduino15/staging/packagesにコピーします。</li>
+        	<li>Arduinoを起動します。</li>
+        	<li>「ツール」メニューの「マイコンボード＞ボードマネージャー」を開きます。</li>
+        	<li>「検索をフィルタ...」に8266を入力</li>
+        	<li>「esp8266 by ESP8266 community バージョン2.1.0」を選択してインストールします。</li>
+        </ol>
+        <p>&nbsp;</p>
+<p><a href="https://atnd.org/events/76047"></a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">This page maintained by <a href="https://github.com/keiso">keiso</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+
+
+  </body>
+</html>
